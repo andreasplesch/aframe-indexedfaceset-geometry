@@ -4,7 +4,7 @@ if (typeof AFRAME === 'undefined') {
 	throw new Error('Geometry attempted to register before AFRAME was available.');
 }
 
-var Delaunay = __webpack_require__(1);
+var Delaunay = require('./lib/delaunay.js');
 
 /**
 	* Triangleset component for A-Frame.
